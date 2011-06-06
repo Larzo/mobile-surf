@@ -42,16 +42,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="2079" selection-end="2079" vertical-scroll-proportion="0.0">
+            <state line="35" column="1" selection-start="2234" selection-end="2234" vertical-scroll-proportion="0.8478747">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wave_model.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="wave_model.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/plugins/wave_model/lib/wave_model.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -589,13 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="2079" selection-end="2079" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/surfcast.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="0.18478261">
@@ -606,6 +599,13 @@
     <entry file="file://$PROJECT_DIR$/vendor/plugins/wave_model/lib/wave_model.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="1" selection-start="2234" selection-end="2234" vertical-scroll-proportion="0.8478747">
           <folding />
         </state>
       </provider>
