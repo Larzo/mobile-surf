@@ -1,0 +1,45 @@
+
+<p>
+
+<%=  link_to 'East Coast Buoy Reports', {:controller => 'main', :region => "east", :action => :region }  %>
+<br/>
+<%=  link_to 'West Coast Buoy Reports', {:controller => 'main', :region => "west", :action => :region }  %>
+
+</p>
+
+<% if (@web_browser) %>
+<a href="mailto:mobilesurfphone@yahoo.com?subject=mobile surf site"> Send me an email </a>
+
+<p>
+ You can access this website from a cell phone to get buoy reports, just use the <br/>
+ same URL you typed in to get to this page from your browser on your cell phone. <br/>
+ I've got a good  number of buoys for the east and west coast. I actually started this up myself as <br/>
+ an interesting project to improve my development skills and so I could check the buoys using my cell phone.
+ 
+</p>
+
+<p>
+ I am a software engineer working in PHP, though Ruby On Rails (a newer up and coming <br/>
+ web development language and framework) is what really interests me. I also spend alot <br/> 
+ of time camping near the seashore and enjoy surfing, mostly in southern Maine for the <br/>
+ last couple of years. 
+ </p>
+ <p>
+ Well, I somehow  wrecked my weather radio, maybe I dropped it or it was moisture <br/>
+ that did it. Radio Shack is now trying to sell these expensive weather radios that <br/>
+ I don't really like. I bought this cell phone that can access wml web sites. Since <br/>
+ most cell phones don't have alot of bandwidth, these sites are not html but wml. <br/>
+ Having a couple days of vacation, here I am up in Wells Maine spending a few days to <br/>
+ get this Rails site up. I use it alot as I like to check the buoys without getting out <br/>
+ of bed and turning on my laptop, or if I am just out and about. Often when I am camping or <br/>
+ travelling, I may not have regular internet access anyway.
+
+</p>
+<br/>
+feel free to contact me with any feedback, or if you'd like some buoys added, etc. <br/>
+I set up a yahoo email for this site, I may not check all the time so please <br/>
+be patient ... <br/> <br/>
+
+<a href="mailto:mobilesurfphone@yahoo.com?subject=mobile surf site"> Send me an email </a>
+
+<% end %>

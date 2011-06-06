@@ -1,0 +1,41 @@
+8
+
+dir
+17
+svn+ssh://freespiritboston.net/home/freespi/svn/surf/app/views/adminbase
+svn+ssh://freespiritboston.net/home/freespi/svn/surf
+
+
+
+2007-06-13T15:43:08.946000Z
+17
+freespi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+12f56937-371e-4952-9d9f-928f7327228a
+
+login.rhtml
+file
+
+
+
+
+2007-06-13T14:21:44.859000Z
+a967371a141588dc9adbcb5e923213ac
+2007-06-13T15:43:08.946000Z
+17
+freespi
+has-props
+
