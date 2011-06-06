@@ -7,6 +7,11 @@ cattr_reader :per_page
 @@per_page = 10
 
 
+def initialize(args=nil)
+  super(args)
+  self.weight = 1 if !self.weight
+end
+
 def getSurfcasts(wave_models = "")
   # puts Time.now.to_s
   curtime = Time.now
