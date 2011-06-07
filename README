@@ -15,7 +15,8 @@
 
  The area field of the stations was used to get a rough idea where the buoy is located since there may be no
  other way to tell. I used that field to organize the buoys between east and west coasts, but it may seem a
- little strange otherwise.
+ little strange otherwise. Originally I had the idea that users could create their own profiles or add buoys and
+ by filling in the area field, the system could get an idea of where the buoy is located from that.
 
  This app does not use the other buoy_report plugin that I wrote as an exercise some time more recently.
  Instead there is a many to many relationship between the stations and profiles.
@@ -32,6 +33,9 @@
 
  The older site with more complete buoy data is http://bostownrock.com/surf
  That site may go down soon. The newer site is http://mobile-surf.heroku.com
+
+ It's possible I may not check the email listed in my github very often or hardly ever. If
+ you really want to get in touch, try guildl at rcn dot com
 
 
 
