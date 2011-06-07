@@ -1,7 +1,11 @@
 <p><%=  link_to 'East Coast Buoy Reports', {:controller => 'main', :region => "east", :action => :region }  %><br/>
 <%=  link_to 'West Coast Buoy Reports', {:controller => 'main', :region => "west", :action => :region }  %><br/>
 <%=  link_to 'East Coast Wave Forcasts', {:controller => 'main', :region => "east", :action => :forcast }  %><br/>
-<%=  link_to 'Wind and Tides', {:controller => 'weather', :action => :index }  %><br/></p>
+<%=  link_to 'All Reports', {:controller => 'main', :action => :all}  %><br/>
+
+<%=  link_to 'Wind and Tides', {:controller => 'weather', :action => :index }  %><br/>
+
+</p>
 <% if (@web_browser) %>
 
 <a href="mailto:mobilesurfphone@yahoo.com?subject=mobile surf site"> Send me an email </a>

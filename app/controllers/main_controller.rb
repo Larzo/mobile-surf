@@ -3,17 +3,21 @@ class MainController < ApplicationController
 layout :determine_layout
 helper :main
 
-  
+def all
+  @regions = Profile.active_regions
+end
 
 def forcast
- @profiles = Profile.find(:all)
  @region = params[:region]
+ @profiles = Profile.profiles_for(@region)
+
  @region_msg = "wave models: #{@region}"
 end
 
 def region
- @profiles = Profile.find(:all)
+ #@profiles = Profile.find(:all)
  @region = params[:region]
+ @profiles = Profile.profiles_for(@region)
  @region_msg = "region:#{@region}"
 end
 

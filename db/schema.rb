@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110606172216) do
+ActiveRecord::Schema.define(:version => 20110607063245) do
 
   create_table "profiles", :force => true do |t|
     t.string "name",        :limit => 30

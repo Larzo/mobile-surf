@@ -24,46 +24,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="region.rhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/main/region.rhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="2" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
+            <state line="7" column="0" selection-start="62" selection-end="62" vertical-scroll-proportion="-4.576923">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="station.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/station.rb">
+      <file leaf-file-name="all.rhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/main/all.rhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="33" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
+            <state line="13" column="74" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/main_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="114" selection-start="498" selection-end="498" vertical-scroll-proportion="0.96086955">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/main/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="112" selection-start="515" selection-end="515" vertical-scroll-proportion="-4.576923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/profile.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="6" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="1" selection-start="2234" selection-end="2234" vertical-scroll-proportion="0.8478747">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wave_model.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/plugins/wave_model/lib/wave_model.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="init.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/plugins/wave_model/init.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="37" column="12" selection-start="2523" selection-end="2523" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -79,15 +88,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/station_admin_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20110606133649_add_profiles.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20110606135422_add_maine_nh_buoys.rb" />
         <option value="$PROJECT_DIR$/app/models/station.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20110606172216_add_stations.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20110607060051_add_southern_ca_buoys.rb" />
         <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/db/migrate/20110607063245_add_caribean_buoys.rb" />
+        <option value="$PROJECT_DIR$/app/views/main/region.rhtml" />
+        <option value="$PROJECT_DIR$/app/views/main/forcast.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/main/index.rhtml" />
+        <option value="$PROJECT_DIR$/app/helpers/main_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/main/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/profile.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/main_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/main/all.rhtml" />
       </list>
     </option>
   </component>
@@ -117,7 +133,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -146,73 +162,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile-surf-2011" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile-surf-2011" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wave_model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile-surf-2011" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile-surf-2011" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wave_model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile-surf-2011" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile-surf-2011" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -230,7 +180,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -248,14 +198,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile-surf-2011" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile-surf-2011" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Favorites" />
-      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,6 +284,13 @@
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda">
@@ -447,7 +422,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="85" width="1212" height="616" extended-state="0" />
+    <frame x="123" y="0" width="1212" height="616" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -500,112 +475,110 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/adminbase_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main/region.rhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="86" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/main_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="96" selection-start="1723" selection-end="1723" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main/show_surfcast.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20110606172216_add_stations.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="57" selection-end="57" vertical-scroll-proportion="0.03846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/main_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="271" selection-end="271" vertical-scroll-proportion="-1.1153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="2" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20110606135422_add_maine_nh_buoys.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="26" selection-start="949" selection-end="949" vertical-scroll-proportion="0.84615386">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20110606133649_add_profiles.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="47" selection-start="712" selection-end="755" vertical-scroll-proportion="0.40652174">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/station.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="33" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/006_create_surfcasts.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/plugins/wave_model/init.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/surfcast.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="0.18478261">
+        <state line="2" column="46" selection-start="62" selection-end="104" vertical-scroll-proportion="0.07692308">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/plugins/wave_model/lib/wave_model.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="105" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20110607060051_add_southern_ca_buoys.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="5" selection-start="549" selection-end="549" vertical-scroll-proportion="0.34615386">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="1" selection-start="2234" selection-end="2234" vertical-scroll-proportion="0.8478747">
+        <state line="37" column="12" selection-start="2523" selection-end="2523" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20110607063245_add_caribean_buoys.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/station.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="172" selection-end="172" vertical-scroll-proportion="0.3326087">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main/index.rhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="88" selection-start="462" selection-end="462" vertical-scroll-proportion="0.6129808">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main/forcast.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="105" selection-start="250" selection-end="250" vertical-scroll-proportion="-7.8461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main/region.rhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="62" selection-end="62" vertical-scroll-proportion="-4.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="112" selection-start="515" selection-end="515" vertical-scroll-proportion="-4.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/main_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="29" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/profile.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="6" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main/all.rhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="74" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/main_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="114" selection-start="498" selection-end="498" vertical-scroll-proportion="0.96086955">
           <folding />
         </state>
       </provider>

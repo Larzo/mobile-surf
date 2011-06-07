@@ -1,5 +1,10 @@
 module MainHelper
 
+
+# code moved into Profile model
+
+=begin
+
 def in_region(region, prof)
   res = false
   if (region == "")
@@ -19,26 +24,15 @@ def in_region(region, prof)
   return res
 end
 
+=end
 
+def region_name(region)
+  Profile.region_name(region)
+end
 
 def get_area(profile)
-  max = "0" 
-  area = ""
-  for buoy in profile.stations 
-     if (buoy.weight > max)
-       max = buoy.weight
-       area = buoy.area
-     end 
-  end 
-
-if (area != "")
-  area = "(#{area})"
+  profile.get_area
 end
-
- return area
-
-end
-
 
 
 end
