@@ -1,0 +1,21 @@
+
+<p>
+
+<% @regions.each do |region| %>
+<%= link_to 'Buoy Reports for ' + region_name(region),
+            {:controller => 'main', :region => region.to_s, :action => :region } %>
+<br/>
+
+<% end %>
+
+<br/>
+
+ <% @regions.each do |region| %>
+  <%= link_to 'Surf Forcast for ' + region_name(region),
+              {:controller => 'main', :region => region.to_s, :action => :forcast } %>
+  <br/>
+
+  <% end %>
+
+
+</p>
