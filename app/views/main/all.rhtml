@@ -2,9 +2,9 @@
 <p>
 
 <% @regions.each do |region| %>
-<%= link_to 'Buoy Reports for ' + region_name(region),
+  <%= link_to 'Buoy Reports for ' + region_name(region),
             {:controller => 'main', :region => region.to_s, :action => :region } %>
-<br/>
+  <br/>
 
 <% end %>
 

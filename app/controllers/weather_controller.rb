@@ -2,7 +2,7 @@ class WeatherController < ApplicationController
   
   layout :determine_layout
 
- private
+  private
  
   def get_weather(name)
     name = name.gsub(/-/,' ')

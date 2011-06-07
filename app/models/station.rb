@@ -1,24 +1,24 @@
 class Station < ActiveRecord::Base
-has_and_belongs_to_many :profiles
-has_many :readings
-has_many :surfcasts
+  has_and_belongs_to_many :profiles
+  has_many :readings
+  has_many :surfcasts
 
-cattr_reader :per_page
-@@per_page = 10
+  cattr_reader :per_page
+  @@per_page = 10
 
 
-def initialize(args=nil)
-  super(args)
-  self.weight = 1 if !self.weight
-end
+  def initialize(args=nil)
+    super(args)
+    self.weight = 1 if !self.weight
+  end
 
-def getSurfcasts(wave_models = "")
-  # puts Time.now.to_s
-  curtime = Time.now
-  wave_models = "" if wave_models == nil
+  def getSurfcasts(wave_models = "")
+    # puts Time.now.to_s
+    curtime = Time.now
+    wave_models = "" if wave_models == nil
   
-  deleted = false
-  surfcasts.each do |read|
+    deleted = false
+    surfcasts.each do |read|
       crtime = read.created_at
       expire = crtime + 3600
       if Time.now > expire
@@ -34,10 +34,6 @@ def getSurfcasts(wave_models = "")
         surfcasts << f
       end
     end
-end
-  
-
-
-
+  end
 
 end
